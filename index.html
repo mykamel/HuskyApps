@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HuskyApps Privacy Pages</title>
+  <style>
+    :root {
+      --bg: #f4f7fb;
+      --card: #ffffff;
+      --text: #172033;
+      --muted: #607086;
+      --accent: #1f6feb;
+      --border: #d9e0ea;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background: linear-gradient(180deg, #f8fbff 0%, var(--bg) 100%);
+    }
+    .wrap {
+      max-width: 840px;
+      margin: 56px auto;
+      padding: 0 20px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 32px;
+      box-shadow: 0 12px 34px rgba(23, 32, 51, 0.07);
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 34px;
+      line-height: 1.2;
+    }
+    p {
+      margin: 0 0 24px;
+      color: var(--muted);
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: 14px;
+    }
+    a.item {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 18px 20px;
+      background: #fbfdff;
+      transition: border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    a.item:hover {
+      border-color: #b8c9e4;
+      transform: translateY(-1px);
+      box-shadow: 0 8px 20px rgba(31, 111, 235, 0.08);
+    }
+    .title {
+      display: block;
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--text);
+    }
+    .path {
+      display: block;
+      margin-top: 4px;
+      color: var(--accent);
+      word-break: break-all;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>HuskyApps Privacy Pages</h1>
+      <p>Public privacy policy pages for HuskyApps products.</p>
+
+      <ul>
+        <li>
+          <a class="item" href="the-global-string-privacy.html">
+            <span class="title">The Global String</span>
+            <span class="path">/HuskyApps/the-global-string-privacy.html</span>
+          </a>
+        </li>
+        <li>
+          <a class="item" href="pi-video-editor-privacy.html">
+            <span class="title">PI Video Editor</span>
+            <span class="path">/HuskyApps/pi-video-editor-privacy.html</span>
+          </a>
+        </li>
+        <li>
+          <a class="item" href="newsquircle-privacy.html">
+            <span class="title">NewSquircle</span>
+            <span class="path">/HuskyApps/newsquircle-privacy.html</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
