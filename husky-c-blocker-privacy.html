@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy - Husky C-Blocker</title>
+  <style>
+    :root { --bg: #f5f7fb; --card: #ffffff; --text: #172033; --muted: #5b6475; --accent: #1f6feb; --border: #d9e0ea; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: var(--text); background: linear-gradient(180deg, #f8fbff 0%, var(--bg) 100%); }
+    .wrap { max-width: 820px; margin: 48px auto; padding: 0 20px; }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 20px; padding: 32px; box-shadow: 0 10px 30px rgba(23, 32, 51, 0.06); }
+    .header { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; }
+    .eyebrow { display: inline-block; margin-bottom: 12px; padding: 5px 12px; border-radius: 999px; background: #e8f0ff; color: #0b4fd6; font-size: 12px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; }
+    .app-icon { width: 72px; height: 72px; border-radius: 18px; box-shadow: 0 8px 18px rgba(23, 32, 51, 0.16); flex: 0 0 auto; }
+    h1 { margin: 0 0 8px; font-size: 32px; line-height: 1.2; }
+    h2 { margin: 28px 0 10px; font-size: 18px; color: var(--accent); }
+    p, li { color: var(--text); }
+    .muted { color: var(--muted); }
+    ul { padding-left: 20px; }
+    a { color: var(--accent); }
+    @media (max-width: 480px) { .card { padding: 22px; } .header { gap: 12px; } h1 { font-size: 27px; } .app-icon { width: 56px; height: 56px; } }
+  </style>
+</head>
+<body>
+  <div class="wrap"><div class="card">
+    <div class="header">
+      <div>
+        <div class="eyebrow">Privacy Policy</div>
+        <h1>Husky C-Blocker</h1>
+        <p class="muted">Last updated: October 28, 2026</p>
+      </div>
+      <img class="app-icon" src="assets/husky-c-blocker-icon.png" alt="Husky C-Blocker app icon" />
+    </div>
+
+    <p>Husky C-Blocker is a macOS menu bar app that lets you block selected service domains and pause protection on Wi-Fi networks you choose as Safe Zones. This policy explains how the app handles information.</p>
+
+    <h2>Data collection and sharing</h2>
+    <p>Husky C-Blocker does not transmit your browsing activity, Wi-Fi names, block list, or preferences to the developer or an app-operated server. It has no accounts, advertisements, tracking, or third-party analytics SDKs. I do not sell or rent your personal information.</p>
+
+    <h2>Network filtering</h2>
+    <p>With your macOS approval, a local network extension examines the hostnames macOS makes available for network connections and compares them with your selected domains. It allows or blocks those connections on your Mac. It does not decrypt HTTPS content, install interception certificates, or route your traffic through a remote VPN server.</p>
+
+    <h2>Wi-Fi names and Location permission</h2>
+    <p>Safe Zones use Wi-Fi network names. macOS requires Location permission before it makes these names available to the app. Husky uses this permission to read the current Wi-Fi name; it does not request geographic coordinates or maintain a location history. It also reads whether macOS identifies your connection as metered or in Low Data Mode. Wi-Fi names remain on your Mac and hotspots are not automatically added to Safe Zones.</p>
+
+    <h2>Information stored locally</h2>
+    <p>The app saves your chosen service domains, custom domains, Safe Zone Wi-Fi names, automation preferences, and protection preferences locally. To restore a manual override after restarting, it may save the Wi-Fi name and connection conditions associated with that choice. The network-filter configuration contains the selected blocked domains. These settings are not uploaded by Husky.</p>
+
+    <h2>Diagnostics</h2>
+    <p>Husky writes operational messages to macOS diagnostic logs. Earlier development builds may include allowed or blocked hostnames and configured domain lists in those local logs. Updated builds omit domain names from filter logs. Husky does not automatically upload these logs. If you choose to send logs or a screenshot for support, review them first and remove information you do not want to share. Apple's own diagnostic services are governed by your macOS settings and Apple's privacy policy.</p>
+
+    <h2>Your choices</h2>
+    <ul>
+      <li>Change your block list, remove custom domains, or remove Safe Zones in Settings.</li>
+      <li>Turn protection off using the menu switch. Quitting the app alone may leave the system filter's last configuration active.</li>
+      <li>Revoke Location access or disable the network extension in System Settings. Safe Zone recognition requires Wi-Fi-name access.</li>
+      <li>Local preferences and macOS logs may remain after removing the app. Contact support if you need help removing remaining app data.</li>
+    </ul>
+
+    <h2>Support and this website</h2>
+    <p>If you email support, your email address and the information you choose to send are used to respond to your request. This privacy page is hosted on GitHub Pages; GitHub may process website request information under <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">its privacy statement</a>. Visiting this page is separate from the app's local filtering.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>This page will be updated when the app's privacy practices change. The date above identifies the latest revision.</p>
+
+    <h2>Contact</h2>
+    <p>For privacy questions about Husky C-Blocker, contact <a href="mailto:mykamel@gmail.com">mykamel@gmail.com</a>.</p>
+    <p><a href="index.html">Back to HuskyApps</a></p>
+  </div></div>
+</body>
+</html>
